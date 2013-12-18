@@ -106,4 +106,16 @@
     <string name="clock_alarm_color_title">Alarm color</string>
     <!-- Label for the digital clock alarm color settings summary -->
     <string name="clock_alarm_color_summary">Set the alarm color of the digital clock widget.</string>
+
+    <!-- Select the source of the alarm -->
+    <string name="alarm_select">Select Alarm</string>
+    <!-- Select the ringtone as alarm -->
+    <string name="alarm_select_ringtone">Ringtone</string>
+    <!-- Select the alarm from external device -->
+    <string name="alarm_select_external">Music</string>
+    <!-- Ok for selection -->
+    <string name="alarm_select_ok">OK</string>
+    <!-- Cancel for selection -->
+    <string name="alarm_select_cancel">Cancel</string>
+
 </resources>
