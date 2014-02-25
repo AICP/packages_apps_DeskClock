@@ -68,4 +68,9 @@
     <string name="action_summary_snooze">snooze alarm</string>
     <string name="action_summary_dismiss">dismiss alarm</string>
 
+    <!-- Alarm picker dialog title -->
+    <string name="alarm_picker_title">Pick alarm type</string>
+
+    <!-- Random song message -->
+    <string name="random_song">Random</string>
 </resources>
