@@ -68,4 +68,10 @@
     <string name="action_summary_snooze">snooze alarm</string>
     <string name="action_summary_dismiss">dismiss alarm</string>
 
+    <!-- Setting labels on Set alarm screen: Choose profile -->
+    <string name="profile_description">Profile <xliff:g id="profile">%s</xliff:g></string>
+
+    <!-- No profile selected label -->
+    <string name="profile_no_selected">No profile selected</string>
+
 </resources>
