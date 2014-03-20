@@ -74,4 +74,11 @@
     <!-- No profile selected label -->
     <string name="profile_no_selected">No profile selected</string>
 
+    <!-- Alarm picker dialog title -->
+    <string name="alarm_picker_title">Choose alarm type</string>
+
+    <!-- Alarm types -->
+    <string name="alarm_type_ringtone">Ringtone</string>
+    <string name="alarm_type_random">Randomly</string>
+
 </resources>
