@@ -118,4 +118,6 @@
     <!-- Cancel for selection -->
     <string name="alarm_select_cancel">Cancel</string>
 
+    <!-- Ringtone selection default" -->
+    <string name="ringtone_default">"Default ringtone"</string>
 </resources>
