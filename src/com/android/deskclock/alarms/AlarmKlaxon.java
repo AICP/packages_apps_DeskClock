@@ -30,7 +30,6 @@ import android.os.Vibrator;
 import com.android.deskclock.Log;
 import com.android.deskclock.AlarmMediaPlayer;
 import com.android.deskclock.R;
-import com.android.deskclock.Utils;
 import com.android.deskclock.provider.AlarmInstance;
 
 import java.io.IOException;
@@ -116,19 +115,10 @@ public class AlarmKlaxon {
             // Fall back on the default alarm if the database does not have an
             // alarm stored.
             if (alarmNoise == null) {
-                // Try to get the actual default first, this will be the one set by the user
-                alarmNoise = RingtoneManager.getActualDefaultRingtoneUri(context,
-                        RingtoneManager.TYPE_ALARM);
-                // if the actual default is null, fallback to the system default.
-                if (alarmNoise == null) {
-                    alarmNoise = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
-                }
+                alarmNoise = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
                 if (Log.LOGV) {
                     Log.v("Using default alarm: " + alarmNoise.toString());
                 }
-            } else if (!Utils.isRingToneUriValid(context, alarmNoise)) {
-                alarmNoise = RingtoneManager.getActualDefaultRingtoneUri(context,
-                        RingtoneManager.TYPE_ALARM);
             }
 
             sAudioManager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
