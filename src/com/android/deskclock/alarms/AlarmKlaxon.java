@@ -157,6 +157,7 @@ public class AlarmKlaxon {
                 }
             } else {
                 sMediaPlayer = new AlarmMultiPlayer(context);
+                sMediaPlayer.setAudioAttributes(VIBRATION_ATTRIBUTES);
                 sMediaPlayer.setOnErrorListener(new OnErrorListener() {
                     @Override
                     public boolean onError(MediaPlayer mp, int what, int extra) {
