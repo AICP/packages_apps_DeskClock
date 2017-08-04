@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Settings summary for the volume buttons setting. -->
-  <string name="volume_buttons_summary">Trykk på volum knapper vil <xliff:g id="action">%s</xliff:g></string>
+  <string name="volume_buttons_summary">Trykking på volumknapper vil <xliff:g id="action">%s</xliff:g></string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Vend handling</string>
   <!-- Setting summary for the flip action setting. -->
@@ -46,4 +46,7 @@
   <!-- No profile selected label -->
   <string name="profile_no_selected">Ingen profil valgt</string>
   <string name="alarm_modification_service_desc">En tjeneste som tillater manipulering av alarmer av tredjeparter.</string>
+  <string name="power_on_text">Slå på enhet?</string>
+  <string name="power_on_yes_text">Ja</string>
+  <string name="power_on_no_text">Nei</string>
 </resources>

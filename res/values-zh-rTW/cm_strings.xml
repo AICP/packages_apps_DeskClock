@@ -19,7 +19,7 @@
   <!-- Settings summary for the volume buttons setting. -->
   <string name="volume_buttons_summary">按下音量鍵將<xliff:g id="action">%s</xliff:g></string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">翻面動作</string>
+  <string name="flip_action_title">翻轉動作</string>
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary" product="tablet">將平板電腦翻轉將<xliff:g id="action">%s</xliff:g></string>
   <string name="flip_action_summary" product="default">將手機翻轉將<xliff:g id="action">%s</xliff:g></string>
@@ -45,4 +45,8 @@
   <string name="profile_description">設定檔「<xliff:g id="profile">%s</xliff:g>」</string>
   <!-- No profile selected label -->
   <string name="profile_no_selected">未選取設定檔</string>
+  <string name="alarm_modification_service_desc">允許第三方監控鬧鐘服務。</string>
+  <string name="power_on_text">啟動裝置電源？</string>
+  <string name="power_on_yes_text">是</string>
+  <string name="power_on_no_text">否</string>
 </resources>

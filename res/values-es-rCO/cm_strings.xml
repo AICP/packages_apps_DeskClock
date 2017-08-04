@@ -28,5 +28,4 @@
   <!-- Setting labels on Set alarm screen: Increasing volume on or off -->
   <!-- Setting labels on Set alarm screen: Choose profile -->
   <!-- No profile selected label -->
-  <string name="power_on_yes_text">Jes</string>
 </resources>
