@@ -17,4 +17,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="flip_action_title">端末反転アクション</string>
+    <string name="shake_action_title">端末を振った時のアクション</string>
+    <string-array name="action_setting_entries">
+        <item>スヌーズ</item>
+        <item>解除</item>
+        <item>なし</item>
+    </string-array>
+    <string name="menu_item_widget_settings">ウィジェットの設定</string>
 </resources>

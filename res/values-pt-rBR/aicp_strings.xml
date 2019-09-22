@@ -17,4 +17,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="flip_action_title">Ação ao girar o dispositivo</string>
+    <string name="shake_action_title">Ação ao agitar o dispositivo</string>
+    <string-array name="action_setting_entries">
+        <item>Soneca</item>
+        <item>Dispensar</item>
+        <item>Nada</item>
+    </string-array>
+    <string name="menu_item_widget_settings">Configurações do widget</string>
 </resources>
